@@ -5,7 +5,7 @@ class AppConfig:
     ROOT_DIR = os.path.dirname(os.path.dirname(FILE_PATH))
 
     OUTPUT_DIR = os.path.join(ROOT_DIR, "data", "output")
-    INPUT_DIR = os.path.join(ROOT_DIR, "data", "INPUT")
+    INPUT_DIR = os.path.join(ROOT_DIR, "data", "input")
     print(ROOT_DIR)
     pass
 
