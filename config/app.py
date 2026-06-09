@@ -14,7 +14,7 @@ class AppConfig:
             for dir_path in [self.OUTPUT_DIR, self.INPUT_DIR]
         ]
 
-
+    print("sup")
 def get_app_config() -> AppConfig:
     config = AppConfig()
     config.ensure_directories()
