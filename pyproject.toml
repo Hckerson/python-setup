@@ -1,5 +1,5 @@
 [project]
-name = "jobradar"
+name = "name"
 version = "0.0.1"
 description = "Collect, analyse, serve and query job postings."
 readme = "README.md"
@@ -48,7 +48,7 @@ files = ["src", "tests"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = ["--strict-markers", "--cov=jobradar", "--cov-report=term-missing"]
+addopts = ["--strict-markers", "--cov=name", "--cov-report=term-missing"]
 
 [tool.coverage.report]
 fail_under = 90

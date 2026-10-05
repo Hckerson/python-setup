@@ -1,5 +1,5 @@
-import jobradar
+import name
 
 
 def test_package_imports() -> None:
-    assert jobradar.__version__ == "0.0.1"
+    assert name.__version__ == "0.0.1"
