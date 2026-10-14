@@ -1,5 +1,5 @@
 [project]
-name = "name"
+name = "pipecraft"
 version = "0.0.1"
 description = "Collect, analyse, serve and query job postings."
 readme = "README.md"
@@ -12,7 +12,9 @@ classifiers = [
     "Operating System :: OS Independent",
     "Typing :: Typed",
 ]
-dependencies = []
+dependencies = [
+    "pydantic>=2.14.1",
+]
 
 [dependency-groups]
 dev = [
@@ -48,7 +50,7 @@ files = ["src", "tests"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = ["--strict-markers", "--cov=name", "--cov-report=term-missing"]
+addopts = ["--strict-markers", "--cov=pipecraft", "--cov-report=term-missing"]
 
 [tool.coverage.report]
 fail_under = 90
