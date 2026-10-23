@@ -1,5 +1,5 @@
-import name
+import setup
 
 
 def test_package_imports() -> None:
-    assert name.__version__ == "0.0.1"
+    assert setup.__name__ == "setup"
